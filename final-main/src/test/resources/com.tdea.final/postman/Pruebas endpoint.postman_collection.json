@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "505345fe-4b7b-4532-bc9b-8c242bb86a9f",
+		"name": "Pruebas endpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21180859"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.4/apache-maven-3.8.4-bin.zip",
+					"protocol": "https",
+					"host": [
+						"repo",
+						"maven",
+						"apache",
+						"org"
+					],
+					"path": [
+						"maven2",
+						"org",
+						"apache",
+						"maven",
+						"apache-maven",
+						"3.8.4",
+						"apache-maven-3.8.4-bin.zip"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar",
+					"protocol": "https",
+					"host": [
+						"repo",
+						"maven",
+						"apache",
+						"org"
+					],
+					"path": [
+						"maven2",
+						"org",
+						"apache",
+						"maven",
+						"wrapper",
+						"maven-wrapper",
+						"3.1.0",
+						"maven-wrapper-3.1.0.jar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
